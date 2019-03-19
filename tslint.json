@@ -1,0 +1,11 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:latest", "tslint-react", "tslint-config-prettier"],
+  "jsRules": {},
+  "rules": {
+    "ordered-imports": [true, { "grouped-imports": true }],
+    "interface-name": [true, "never-prefix"],
+    "no-submodule-imports": [true, "next/head", "next/link", "next/app", "next/router"]
+  },
+  "rulesDirectory": []
+}
